@@ -1,3 +1,6 @@
+SET search_path TO rutas;
+SET client_encoding = 'UTF8';
+
 insert into rutas.ESTUDIANTES (Nombre, Telefono, Id_Ruta) values ('Jackie Melrose', '146-377-9476', 8);
 insert into rutas.ESTUDIANTES (Nombre, Telefono, Id_Ruta) values ('Dasya Golledge', '764-174-5196', 8);
 insert into rutas.ESTUDIANTES (Nombre, Telefono, Id_Ruta) values ('Alvis Slamaker', '970-169-1991', 1);

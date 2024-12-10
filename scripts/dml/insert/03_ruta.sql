@@ -1,3 +1,6 @@
+SET search_path TO rutas;
+SET client_encoding = 'UTF8';
+
 insert into rutas.RUTA (ID_Direccion_Ruta, ID_Transporte) values (3, 1);
 insert into rutas.RUTA (ID_Direccion_Ruta, ID_Transporte) values (1, 2);
 insert into rutas.RUTA (ID_Direccion_Ruta, ID_Transporte) values (1, 3);

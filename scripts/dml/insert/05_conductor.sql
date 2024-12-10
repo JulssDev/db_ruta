@@ -1,3 +1,6 @@
+SET search_path TO rutas;
+SET client_encoding = 'UTF8';
+
 insert into rutas.CONDUCTOR (Nombre, Telefono) values ('Maximilien Betchley', '279-153-6263');
 insert into rutas.CONDUCTOR (Nombre, Telefono) values ('Dorothy Basil', '319-151-7673');
 insert into rutas.CONDUCTOR (Nombre, Telefono) values ('Granville Edinboro', '574-794-7654');

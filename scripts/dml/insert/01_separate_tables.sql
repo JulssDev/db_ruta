@@ -1,4 +1,4 @@
-
+SET search_path TO rutas;
 SET client_encoding = 'UTF8';
 
 INSERT INTO rutas.DIRECCION_RUTA (Nombre, Tiempo_Estimado_Ruta) VALUES

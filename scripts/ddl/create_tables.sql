@@ -1,3 +1,4 @@
+SET search_path TO rutas;
 CREATE TABLE estudiantes (
   estudiante_id SERIAL PRIMARY KEY,
   nombre VARCHAR NOT NULL,

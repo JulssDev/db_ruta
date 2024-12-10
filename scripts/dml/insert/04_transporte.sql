@@ -1,3 +1,6 @@
+SET search_path TO rutas;
+SET client_encoding = 'UTF8';
+
 insert into rutas.TRANSPORTE (ID_Tipo_Transporte, ID_Marca, ID_Horario, Capacidad, ID_Conductor) values (2, 7, 5, 4, 1);
 insert into rutas.TRANSPORTE (ID_Tipo_Transporte, ID_Marca, ID_Horario, Capacidad, ID_Conductor) values (1, 21, 4, 21, 2);
 insert into rutas.TRANSPORTE (ID_Tipo_Transporte, ID_Marca, ID_Horario, Capacidad, ID_Conductor) values (2, 27, 2, 3, 3);

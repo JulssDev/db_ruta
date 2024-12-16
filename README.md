@@ -41,13 +41,10 @@ The project is organized as follows:
 
 ```
 /db_ruta
-├── backend/
-│	├── public/                # Static public files (CSS, JS, images).
-│		├── src/                   # Server source code and business logic.
-│		│   ├── controllers/       # Controllers for backend operations.
-│		│   ├── routes/            # API route definitions for the backend.
-│		│   ├── models/            # Data models and database connection.
-│		│   └── config/            # General configurations (database, environment).
+├── backend/		# SQL files for initializing the back-end.
+│	├── src/        # Server source code and business logic.
+│	│	├── app/           # Principal app configuration.
+│	│	├── venv/       	# Controllers for backend operations and start.
 │
 ├── database/              # SQL files for initializing the database.
 │	├── data/
@@ -66,7 +63,12 @@ The project is organized as follows:
 │	│   ├── functions/          # Custom SQL functions
 │	│   └── scripts_auto/       # Automated scripts to run SQL
 │
-├── docs/				#Proyect Manuals.
+├── docs/				#Proyect Manuals and Scrum files.
+├── frontend/				# SQL files for initializing the front-end.
+│	├── node_modules/			# Aditional librarys.
+│	├── public/				# Visual resources.
+│	├── src/					# Visual source code.
+│
 ├── gitignore.txt           # Files ignored by Git
 └── README.md              # Main documentation.
 ```

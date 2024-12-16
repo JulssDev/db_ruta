@@ -1,0 +1,134 @@
+/* Estilos Generales */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #121212;
+  color: #ffffff;
+  text-align: center;
+}
+
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Header */
+.header {
+  padding: 20px;
+  background-color: #1e1e1e;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.logo {
+  margin: 0;
+  font-size: 28px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+/* Hero Section */
+.hero {
+  margin: 20px auto;
+}
+
+.hero h1 {
+  font-size: 2.8rem;
+}
+
+.hero p {
+  color: #cccccc;
+  font-size: 1.2rem;
+}
+
+/* CRUD Buttons */
+.crud-buttons {
+  margin: 20px auto; /* Ajustado para subir los botones */
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.btn {
+  padding: 15px 30px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+}
+
+.create-btn {
+  background-color: #28a745;
+  color: white;
+}
+
+.read-btn {
+  background-color: #007bff;
+  color: white;
+}
+
+.update-btn {
+  background-color: #ffc107;
+  color: black;
+}
+
+.delete-btn {
+  background-color: #dc3545;
+  color: white;
+}
+
+/* Formulario */
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* Espaciado entre campos */
+  width: 300px;
+  margin: 20px auto;
+}
+
+.form input {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #444;
+  background-color: #222;
+  color: #fff;
+}
+
+.form button {
+  margin-top: 10px;
+  font-size: 16px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #fff;
+  font-weight: bold;
+}
+
+.form .btn {
+  transition: transform 0.2s ease;
+}
+
+.form .btn:hover {
+  transform: scale(1.05);
+}
+
+/* Footer */
+.footer {
+  padding: 15px;
+  background-color: #1e1e1e;
+  color: #aaaaaa;
+  font-size: 0.9rem;
+  text-align: center;
+}

@@ -50,21 +50,21 @@ The project is organized as follows:
 │		│   └── config/            # General configurations (database, environment).
 │
 ├── database/              # SQL files for initializing the database.
-│		├── data/
-│		│   └── backups/            # Database backups
-│		│
-│		├── docs/                # Database and Proyect documentation
-│		│
-│		├── models/
-│		│   ├── ERD/                # Entity-Relationship Diagrams
-│		│   ├── LDM/                # Logical Data Model
-│		│   └── PDM/                # Physical Data Model
-│		│
-│		├── scripts/             # SQL scripts and batch files
-│		│   ├── ddl/                # DDL scripts: table and structure creation
-│		│   ├── dml/                # DML scripts: data insertion, updates, and deletions
-│		│   ├── functions/          # Custom SQL functions
-│		│   └── scripts_auto/       # Automated scripts to run SQL
+│	├── data/
+│	│   └── backups/            # Database backups
+│	│
+│	├── docs/                # Database and Proyect documentation
+│	│
+│	├── models/
+│	│   ├── ERD/                # Entity-Relationship Diagrams
+│	│   ├── LDM/                # Logical Data Model
+│	│   └── PDM/                # Physical Data Model
+│	│
+│	├── scripts/             # SQL scripts and batch files
+│	│   ├── ddl/                # DDL scripts: table and structure creation
+│	│   ├── dml/                # DML scripts: data insertion, updates, and deletions
+│	│   ├── functions/          # Custom SQL functions
+│	│   └── scripts_auto/       # Automated scripts to run SQL
 │
 ├── docs/				#Proyect Manuals.
 ├── gitignore.txt           # Files ignored by Git
